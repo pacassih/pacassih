@@ -1,52 +1,35 @@
-<h1>Hi, I'm Pacome! <br/><a href="https://github.com/pacassih">Programmer</a>, <a href="https://www.linkedin.com/in/pacome-assih-b522a670/">Cybersecurity Professional</a>, 
-<h2>👨‍💻 Cybersecurity  Projects:</h2>
+# Hi, I'm Pacome 👋 — Security Analyst who builds detection tooling
 
-## Skills
+I work in security operations and build the tools SOC teams wish they had: log triage automation, phishing analysis, vulnerability prioritization — mostly Python and PowerShell.
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+**Focus:** Security Analyst / SOC Analyst roles — Dallas–Fort Worth & Remote
+**Certs:** ISC2 CC · Google Cybersecurity Professional · Qualys Vulnerability Management
 
-## Tools
+---
 
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
+## 🔍 Detection & SOC Projects
 
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
+| Project | What it does | Stack |
+|---|---|---|
+| [siem-log-parser](https://github.com/pacassih/siem-log-parser) | Parses security logs — detects brute force, port scans, off-hours logins — and outputs severity-ranked threat reports | Python |
+| [phish-analyzer](https://github.com/pacassih/phish-analyzer) | Parses `.eml` files: header forensics, URL defanging, attachment hashing, heuristic risk scoring | Python |
+| [vuln-prioritizer](https://github.com/pacassih/vuln-prioritizer) | Ingests Qualys-style CSV exports and produces a weighted, SLA-tagged remediation queue | Python |
+| **Detection Lab** | SIEM implementation and log analysis — network traffic monitoring & attack detection | SIEM, Zeek, Suricata |
+| **SOC Automation Lab** | Security automation with Shuffle SOAR, incident response playbooks, case management with TheHive | SOAR, TheHive |
+| **PowerShell toolkit** | Failed RDP login geo-tracking, AD bulk user creation, file integrity monitor, disk wiping utility | PowerShell |
 
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
-- <b>C# (.NET Desktop Applications)</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-  - [Ransomware Proof of Concept (Decrypter)](https://github.com/joshmadakor1/DecrypterPOC)
-  - [Keylogger with Email Capability](https://github.com/joshmadakor1/Key-Logger-With-Email)
-- <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+## 🧰 Toolkit
 
-<h2> 🤳 Connect with me:</h2>
+**Security:** SIEM · Qualys · Shuffle SOAR · TheHive · Wireshark · incident response · vulnerability management
+**Languages:** Python · PowerShell · Bash · SQL
+**Infra/Cloud:** Active Directory · Windows Server · Linux · Azure · AWS
+**Practices:** log correlation · threat detection · least-privilege audits · security awareness training
 
-<a href="https://linkedin.com/in/pacome-assih-b522a670"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+## 🤝 Connect
 
+- 💼 [LinkedIn](https://www.linkedin.com/in/pacome-assih-b522a670/)
+- 📄 Resume available on request — pacassih@gmail.com
 
+---
 
+*Every project here is built to be run, not just read — clone it, run it, break it.*
